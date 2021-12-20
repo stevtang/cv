@@ -1,0 +1,75 @@
+body{
+  background-color: #d0e8f2;
+  margin: 0;
+
+}
+.top-container{
+  text-align: center;
+
+}
+.mid-container{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+form{
+  text-align: center;
+  flex-wrap:unwrap;
+}
+hr{
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1{
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  margin-bottom: 0;
+
+}
+h2{
+  text-align: center;
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+}
+h3{
+  color: #66bfbf;
+  margin-top:0;
+}
+img{
+  border-radius: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d0e8f2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #fadd77;
+}
+
+.active {
+  background-color: #8ed7c5;
+}
